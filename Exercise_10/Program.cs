@@ -3,3 +3,9 @@
 //782 -> 8
 //918 -> 1
 
+Console.WriteLine("Введите трёхзначное число");
+int number = Convert.ToInt32(Console.ReadLine());
+
+number = number % 100;
+number = number / 10;
+Console.WriteLine (number);
